@@ -1,3 +1,8 @@
+# Converting single object to multiple object floorplan
+This repo is an explaination (in response to a stackoverflow question) of the stages I would use in converting a single object svg to a multiple object svg.  
+I.e.  
+Single object svg: only a single object is selectable / manupulatable;  
+Multiple object: multiple objects are selectable / manupulatable.  
 
 A  
 Create 4 files:  
