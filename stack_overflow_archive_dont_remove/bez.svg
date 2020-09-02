@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg"  width="600" height="600" 
+viewBox="109 80.5 20 20">
+<g>
+    <rect x="110" y="81.4" width="18.3" height="18.3" opacity="40%"/>
+    <path d="M110 70v100m9.15 0V0m9.15 70v100M100 81.4h100m0 9.15H0m0 9.15h200" stroke="pink" stroke-width="0.1"/>
+</g>
+<path id="q1" d="M127.773, 90.5469 C127.773, 85.7656 123.898, 81.8906 119.121,81.8906" stroke="red" fill="none"/>
+<path id="q2" d="M119.121, 81.8906 C114.34, 81.8906 110.465, 85.7656 110.465,90.5469" stroke="black" fill="none"/>
+<path id="q3" d="M110.465, 90.5469 C110.465, 95.3281 114.34, 99.1992  119.121,99.1992" stroke="blue" fill="none"/>
+<path id="q4" d="M119.121, 99.1992 C123.898, 99.1992 127.773,95.3281  127.773+90.5469" stroke="white" fill="none"/>
+<g id="start-stop" stroke="black" stroke-width=".1">
+    <path d="M119.1 81.4a 0.5 0.5 0 0 0 0 1z" fill="green"/>
+    <path d="M119.1 81.4a 0.5 0.5 0 0 1 0 1z" fill="red"/>
+</g>
+<use href="#start-stop" x="-8.6" y="8.7"/>
+<use href="#start-stop" x="8.6" y="8.7"/>
+<use href="#start-stop" x="" y="17.3"/>
+<path id="arc-around" d="M127.773, 90.5469A8.6539 8.6539 0 1 1 127.773, 90.5467" stroke="green" stroke-width="0.1" fill="none"/>
+<path id="arc-around2" d="M127.773, 90.5469A8.6543 8.6543 0 1 1 127.773, 90.5467" stroke="pink" stroke-width="0.1" fill="none"/>
+<g stroke="white" stroke-width=".1">
+    <circle cy="86.21875" cx="123.447" r=".3" fill="green" />
+    <circle cx="119.121" cy="90.5469" r=".3" fill="red"/>
+</g>
+<text font-size="3">
+    <tspan x="125.5" y="84">q1</tspan>
+    <tspan x="110" y="84">q2</tspan>
+    <tspan x="110" y="99">q3</tspan>
+    <tspan x="125.5" y="99">q4</tspan>
+</text>
+</svg>
